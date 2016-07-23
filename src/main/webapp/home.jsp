@@ -10,6 +10,7 @@
 <head>
     <title>Title</title>
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="webjars/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i> Spring MVC</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right">
@@ -33,7 +34,7 @@
                 <div class="form-group">
                     <input type="password" placeholder="Password" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
+                <button type="submit" class="btn btn-success"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</button>
             </form>
         </div><!--/.navbar-collapse -->
     </div>
