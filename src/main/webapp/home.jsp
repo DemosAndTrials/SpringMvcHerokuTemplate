@@ -1,20 +1,14 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: matro
-  Date: 23/07/2016
-  Time: 16:47
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Spring MVC<</title>
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="webjars/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
 
+<!-- Fixed navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -24,9 +18,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i> Spring MVC</a>
+            <a class="navbar-brand" href="#"><i class="fa fa-cloud" aria-hidden="true"></i> Spring MVC</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
             <form class="navbar-form navbar-right">
                 <div class="form-group">
                     <input type="text" placeholder="Email" class="form-control">
@@ -36,7 +47,7 @@
                 </div>
                 <button type="submit" class="btn btn-success"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</button>
             </form>
-        </div><!--/.navbar-collapse -->
+        </div><!--/.nav-collapse -->
     </div>
 </nav>
 
