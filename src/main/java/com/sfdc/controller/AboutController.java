@@ -13,7 +13,6 @@ public class AboutController {
     @RequestMapping(value = "")
     public String about() {
 
-
         return "about";
     }
 }
