@@ -31,3 +31,4 @@ _ReSharper*/
 .idea/tasks.xml
 .iws
 .idea/workspace.xml
+*workspace.xml

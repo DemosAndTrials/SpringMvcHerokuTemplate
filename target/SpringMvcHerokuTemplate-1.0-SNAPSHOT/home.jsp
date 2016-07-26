@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Spring MVC<</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="webjars/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -64,8 +65,8 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Lightning Design System</h2>
+            <p>The Design System makes it easy for you to build applications that comply with the new Salesforce Lightning look and feel without reverse engineering the UI as custom CSS. In fact using the new Design System markup results in pages which have the Lightning look and feel without writing any CSS</p>
             <p><a class="btn btn-default" href="lightning" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">

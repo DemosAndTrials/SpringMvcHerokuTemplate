@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Spring MVC</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel='stylesheet prefetch' href='webjars/salesforce-lightning-design-system/2.0.2/assets/styles/salesforce-lightning-design-system.min.css'>
     <style class="cp-pen-styles">.header {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
@@ -89,7 +90,8 @@
             </div>
             <div class="slds-grid slds-grow">
                 <div class="slds-p-vertical--x-small slds-p-horizontal--medium">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/8005/salesforce-logo.png" style="height: 44px;">
+                    <img src="images/salesforce-logo.png" style="height: 44px;">
+                    <span class="slds-text-heading--large"> Page Header</span>
                 </div>
             </div>
         </div>
@@ -133,20 +135,37 @@
             </div>
 
             <!-- Stage Main -->
-            <div class="stage-main slds-grid slds-wrap slds-grow slds-scrollable--y" role="main">
-
-                <div class="slds-grow slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--8-of-12 slds-col-rule--right slds-p-around--large">
-
-                    Primary Content Area
-
+            <div class="slds-grid slds-wrap slds-container--medium slds-container--center slds-order-1 slds-medium-order--2 slds-p-vertical--large">
+                <div class="slds-col--padded slds-col-rule--right slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--8-of-12 slds-p-bottom--x-large">
+                    <article class="slds-text-longform">
+                        <h2 class="slds-text-heading--large">Primary Content</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius in consequatur sed possimus dolore at hic, nam praesentium nisi, delectus quisquam quae tempora laborum incidunt repellat veniam excepturi nobis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero fuga natus omnis enim, tenetur consequatur quidem aliquid praesentium, consequuntur, ab ratione dolorem assumenda nostrum odio deleniti cupiditate ipsa quis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius in consequatur sed possimus dolore at hic, nam praesentium nisi, delectus quisquam quae tempora laborum incidunt repellat veniam excepturi nobis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero fuga natus omnis enim, tenetur consequatur quidem aliquid praesentium, consequuntur, ab ratione dolorem assumenda nostrum odio deleniti cupiditate ipsa quis.</p>
+                    </article>
                 </div>
-
-                <div class="slds-shrink-none slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--4-of-12 slds-p-around--large" role="complementary">
-
-                    Secondary Content Area
-
+                <div class="slds-col--padded slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--4-of-12 slds-m-bottom--large">
+                    <h2 class="slds-text-heading--label">Secondary Content</h2>
+                    <ul class="slds-list--vertical slds-has-dividers">
+                        <li class="slds-list__item"><a href="#">List Item One</a></li>
+                        <li class="slds-list__item"><a href="#">List Item Two</a></li>
+                        <li class="slds-list__item"><a href="#">List Item Three</a></li>
+                        <li class="slds-list__item"><a href="#">List Item Four</a></li>
+                    </ul>
                 </div>
-
+                <div class="slds-col--padded slds-size--1-of-1 slds-small-size--1-of-2 slds-m-bottom--large">
+                    <div class="slds-box">
+                        <h2 class="slds-text-heading--label">Tertiary Content</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quasi deleniti laborum nobis sed assumenda itaque optio unde eius corporis, repellat ea ducimus magni, quos fugit, nihil error quis tempora.</p>
+                    </div>
+                </div>
+                <div class="slds-col--padded slds-size--1-of-1 slds-small-size--1-of-2 slds-m-bottom--large">
+                    <div class="slds-box">
+                        <h2 class="slds-text-heading--label">Tertiary Content</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex placeat quidem obcaecati perspiciatis quaerat? Soluta velit, cupiditate cum, numquam eveniet culpa mollitia maiores minus. Officia voluptatem dolorum error ipsa modi?</p>
+                    </div>
+                </div>
             </div>
 
         </section>
