@@ -15,6 +15,8 @@
     import javax.net.ssl.SSLPeerUnverifiedException;
 
     import static java.lang.System.*;
+    import static org.apache.commons.lang3.StringEscapeUtils.escapeHtml4;
+
 
     /**
      * Created by matro on 29-Jan-17.
@@ -106,12 +108,8 @@
                     StringBuilder sb = new StringBuilder();
 
                     message.append("Response Code : " + con.getResponseCode() + "<br>");
-                    //message.append(System.getProperty("line.separator"));
                     message.append("Cipher Suite : " + con.getCipherSuite() + "<br>");
-
-                   // message += con.getCipherSuite()+ "\n";
-                    //message += con.getCipherSuite()+ "\n";
-                   // message += con.getCipherSuite()+ "\n";
+                    message.append("<br>");
 
                     out.println("Response Code : " + con.getResponseCode());
                     out.println("Cipher Suite : " + con.getCipherSuite());
@@ -141,9 +139,7 @@
                 } catch (IOException e){
                     e.printStackTrace();
                 }
-
             }
-
         }
 
         private void print_content(HttpsURLConnection con){
@@ -157,13 +153,14 @@
                                     new InputStreamReader(con.getInputStream()));
 
                     String input;
-
                     while ((input = br.readLine()) != null){
                         out.println(input);
-                       // message.append(input + "<br>");
+                        message.append(escapeHtml4(input) + "\n");
                     }
-                    br.close();
 
+                    br.close();
+                    //String source = "The less than sign (<) and ampersand (&) must be escaped before using them in HTML";
+                    //String escaped = escapeHtml4(input);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

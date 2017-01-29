@@ -19,6 +19,7 @@
           <element id="library" level="project" name="Maven: org.webjars:jquery:1.9.1" />
           <element id="library" level="project" name="Maven: org.webjars:font-awesome:4.6.3" />
           <element id="library" level="project" name="Maven: org.webjars:salesforce-lightning-design-system:2.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -19,9 +19,13 @@
     <div class="form-group">
         <input type="text" placeholder="url" name="url" class="form-control" value="https://www.google.com">
     </div>
-    <button type="submit" class="btn btn-success"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</button>
+    <button type="submit" class="btn btn-success"><i class="fa fa-sign-in" aria-hidden="true"></i> Send</button>
 </form>
 <br>
-<p>${message}</p>
+<p>
+<div style="margin: 25px">
+${message}
+</div>
+</p>
 </body>
 </html>
